@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/webbanruou/static/css/main.073c9b0a.css",
+    "main.js": "/webbanruou/static/js/main.a11dca45.js",
+    "static/js/787.993412af.chunk.js": "/webbanruou/static/js/787.993412af.chunk.js",
+    "static/media/logo.svg": "/webbanruou/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/webbanruou/index.html",
+    "main.073c9b0a.css.map": "/webbanruou/static/css/main.073c9b0a.css.map",
+    "main.a11dca45.js.map": "/webbanruou/static/js/main.a11dca45.js.map",
+    "787.993412af.chunk.js.map": "/webbanruou/static/js/787.993412af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a11dca45.js"
+  ]
+}
