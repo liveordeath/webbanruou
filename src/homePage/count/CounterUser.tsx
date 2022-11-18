@@ -6,28 +6,28 @@ export function CounterUser(props) {
                 <div className="col-lg-3 col-md-6">
                     <div className="stats-item text-center w-100 h-100">
                         <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                              className="purecounter"></span>
+                              className="purecounter">232</span>
                         <p>Khách hàng thân thiết</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <div className="stats-item text-center w-100 h-100">
                         <span data-purecounter-start="0" data-purecounter-end="21" data-purecounter-duration="1"
-                              className="Loại rượu"></span>
-                        <p>Projects</p>
+                              className="purecounter">21</span>
+                        <p>Loại rượu</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <div className="stats-item text-center w-100 h-100">
                         <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-                              className="purecounter"></span>
+                              className="purecounter">1453</span>
                         <p>Đơn đặt hàng</p>
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <div className="stats-item text-center w-100 h-100">
                         <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                              className="purecounter"></span>
+                              className="purecounter">32</span>
                         <p>Loại thảo mộc</p>
                     </div>
                 </div>
