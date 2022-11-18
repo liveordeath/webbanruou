@@ -1,17 +1,53 @@
 import image from '../../assets/img/binhruou.jpg'
+import image2 from '../../assets/img/binhruou.jpg'
+import image3 from '../../assets/img/about.jpg'
+import image4 from '../../assets/img/binhruou.jpg'
 export function Menu(props) {
+    let data = [
+        {
+            name: "ba kichs",
+            image: image,
+            amount: '5,000,000 VND',
+            content: 'Táo meof, nhân sâm, tam thất, cái đéo gì cũng được.'
+        },
+        {
+            name: "tao meo",
+            image: image2,
+            amount: '5,000,000 VND',
+            content: 'Táo meof, nhân sâm, tam thất, cái đéo gì cũng được.'
+        },
+        {
+            name: "ba kichs",
+            image: image3,
+            amount: '5,000,000 VND',
+            content: 'Táo meof, nhân sâm, tam thất, cái đéo gì cũng được.'
+        },
+        {
+            name: "ba kichs",
+            image: image4,
+            amount: '5,000,000 VND',
+            content: 'Táo meof, nhân sâm, tam thất, cái đéo gì cũng được.'
+        },
+        {
+            name: "ba kichs",
+            image: image,
+            amount: '5,000,000 VND',
+            content: 'Táo meof, nhân sâm, tam thất, cái đéo gì cũng được.'
+        },
+
+    ]
     const renderItem = () => {
         let arr = []
-        for (let i = 0; i < 6; i++){
+        for (let i = 0; i < data.length; i++){
             arr.push(<div className="col-lg-4 menu-item">
                 <a href="" className="glightbox"><img
-                    src={image} className="menu-img img-fluid" alt=""/></a>
-                <h4>Rượu táo mèo</h4>
+                    src={data[i].image} className="menu-img img-fluid" alt=""/></a>
+                <h4>{data[i].name}</h4>
                 <p className="ingredients">
-                    Táo meof, nhân sâm, tam thất, cái đéo gì cũng được.
+                    {data[i].content}
                 </p>
                 <p className="price">
-                    200,000 vnd
+                    {data[i].amount}
                 </p>
             </div>)
         }
@@ -37,12 +73,6 @@ export function Menu(props) {
             <div className="tab-content" data-aos="fade-up" data-aos-delay="300">
 
                 <div className="tab-pane fade active show" id="menu-starters">
-
-                    {/*<div className="tab-header text-center">*/}
-                    {/*    <p>Menu</p>*/}
-                    {/*    <h3>Starters</h3>*/}
-                    {/*</div>*/}
-
                     <div className="row gy-5">
                         {renderItem()}
                     </div>
