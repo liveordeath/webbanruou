@@ -40,10 +40,10 @@ export function Header(props) {
                                 <li><a href="src/homePage/header/Header#">Drop Down 4</a></li>
                             </ul>
                         </li>
-                        <li><a href="src/homePage/header/Header#contact">Contact</a></li>
+                        <li><a href="tel:0984768803">Contact</a></li>
                     </ul>
                 </nav>
-                <a className="btn-book-a-table" href="src/homePage/header/Header#book-a-table">Đặt hàng ngay</a>
+                <a className="btn-book-a-table" href="tel:0984768803">Đặt hàng ngay</a>
                 <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
                 <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
             </div>

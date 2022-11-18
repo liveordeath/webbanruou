@@ -9,7 +9,7 @@ export function Banner(props) {
                         <h2 data-aos="fade-up">Mua rượu ở đây<br/> Uống say không đau đầu</h2>
                         <p data-aos="fade-up" data-aos-delay="100">Rượu của chúng tôi nấu bằng công thức từ đời ông cha truyền lại. Có vô vàn loại rượu ngâm dành cho bạn lựa chọn.</p>
                         <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-                            <a href="src/homePage/banner/Banner#book-a-table" className="btn-book-a-table">Đặt hàng ngay</a>
+                            <a href="tel:0984768803" className="btn-book-a-table">Đặt hàng ngay</a>
                             <a href="https://www.youtube.com/watch?v=RlPLfAOYC2o"
                                className="glightbox btn-watch-video d-flex align-items-center"><i
                                 className="bi bi-play-circle"></i><span>Tham quan khu nấu rượu</span></a>
