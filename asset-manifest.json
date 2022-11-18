@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.e581d1ce.css",
-    "main.js": "./static/js/main.e4df1e29.js",
+    "main.js": "./static/js/main.e286e56c.js",
     "static/js/787.993412af.chunk.js": "./static/js/787.993412af.chunk.js",
     "static/media/hero-img.png": "./static/media/hero-img.562e6fd3a4a177c73885.png",
     "static/media/about.png": "./static/media/about.6326bb4c0f9f1133785d.png",
@@ -11,6 +11,7 @@
     "static/media/gallery-6.jpg": "./static/media/gallery-6.e071ad58cc544ff6ed75.jpg",
     "static/media/gallery-7.jpg": "./static/media/gallery-7.187aab3b25d8a708124d.jpg",
     "static/media/bootstrap-icons.woff?": "./static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/about.jpg": "./static/media/about.a547d8e78393bae9e926.jpg",
     "static/media/bootstrap-icons.woff2?": "./static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "static/media/gallery-8.jpg": "./static/media/gallery-8.47fcc75d79fb4afa666f.jpg",
     "static/media/about-2.jpg": "./static/media/about-2.509244974beaea10a35d.jpg",
@@ -26,11 +27,11 @@
     "index.html": "./index.html",
     "static/media/team-shape.svg": "./static/media/team-shape.1f61b646ef96bc3ea57d.svg",
     "main.e581d1ce.css.map": "./static/css/main.e581d1ce.css.map",
-    "main.e4df1e29.js.map": "./static/js/main.e4df1e29.js.map",
+    "main.e286e56c.js.map": "./static/js/main.e286e56c.js.map",
     "787.993412af.chunk.js.map": "./static/js/787.993412af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e581d1ce.css",
-    "static/js/main.e4df1e29.js"
+    "static/js/main.e286e56c.js"
   ]
 }
