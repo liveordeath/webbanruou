@@ -11,21 +11,20 @@ import ChefComponent from "./homePage/chef/ChefComponent";
 import BookingComponent from "./homePage/booking/BookingComponent";
 import GalleryComponent from "./homePage/gallery/GalleryComponent";
 import Footer from "./homePage/footer/Footer";
-
 function App() {
     return (
         <>
-            <Header/>
+            {/*<Header/>*/}
             <Banner/>
-            <About/>
-            <ChooseComponent/>
-            <CounterUser/>
-            <Menu/>
-            <RecommentComponent/>
-            <ChefComponent/>
-            <BookingComponent/>
-            <GalleryComponent/>
-            <Footer/>
+            {/*<About/>*/}
+            {/*<ChooseComponent/>*/}
+            {/*<CounterUser/>*/}
+            {/*<Menu/>*/}
+            {/*<RecommentComponent/>*/}
+            {/*<ChefComponent/>*/}
+            {/*<BookingComponent/>*/}
+            {/*<GalleryComponent/>*/}
+            {/*<Footer/>*/}
         </>
 
     );

@@ -1,27 +1,52 @@
 import heroImg from '../../assets/img/hero-img.png';
+import food_0 from '../../assets/img/food_0.png';
+import food_1 from '../../assets/img/food_1.png';
+import food_2 from '../../assets/img/food_2.png';
+import food_3 from '../../assets/img/food_3.png';
+import food_4 from '../../assets/img/food_4.png';
+import food_5 from '../../assets/img/food_5.png';
+import food_7 from '../../assets/img/food_7.png';
+import food_8 from '../../assets/img/food_8.png';
+import banner from '../../assets/img/banner.png';
+import location from '../../assets/img/location.png';
+import list1 from '../../assets/img/list1.png';
+import list2 from '../../assets/img/list2.png';
 export function Banner(props) {
     return (
-        <section id="hero" className="hero d-flex align-items-center section-bg">
+        <div id="hero" className="d-flex align-items-center section-bg">
             <div className="container">
-                <div className="row justify-content-between gy-5">
-                    <div
-                        className="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                        <h2 data-aos="fade-up">Mua rượu ở đây<br/> Uống say không đau đầu</h2>
-                        <p data-aos="fade-up" data-aos-delay="100">Rượu của chúng tôi nấu bằng công thức từ đời ông cha truyền lại. Có vô vàn loại rượu ngâm dành cho bạn lựa chọn.</p>
-                        <div className="d-flex" data-aos="fade-up" data-aos-delay="200">
-                            <a href="tel:0984768803" className="btn-book-a-table">Đặt hàng ngay</a>
-                            <a href="https://www.youtube.com/watch?v=RlPLfAOYC2o"
-                               className="glightbox btn-watch-video d-flex align-items-center"><i
-                                className="bi bi-play-circle"></i><span>Tham quan khu nấu rượu</span></a>
-                        </div>
-                    </div>
-                    <div className="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-                        <img src={heroImg} className="img-fluid" alt="" data-aos="zoom-out"
+                <div className="row justify-content-between" >
+                    <div className="col-12">
+                        <img
+                            style={{
+                                width: '100%',
+                                minHeight: 0,
+                                padding: 0
+                            }}
+                            src={banner} className="img-fluid" alt="" data-aos="zoom-out"
                              data-aos-delay="300"/>
+                        <img
+                            style={{
+                                width: '100%',
+                                minHeight: 0,
+                                padding: 0
+                            }}
+                            src={list2} className="img-fluid" alt="" data-aos="zoom-out"
+                             data-aos-delay="400"/>
+                        <img
+                            style={{
+                                width: '100%',
+                                minHeight: 0,
+                                padding: 0
+                            }}
+                            src={list1} className="img-fluid" alt="" data-aos="zoom-out"
+                             data-aos-delay="400"/>
+
                     </div>
+
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 export default Banner
